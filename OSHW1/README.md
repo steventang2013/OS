@@ -1,15 +1,15 @@
- Introduction to System Calls Assignment #1
- =======
- Steven Tang</br>
- steven.tang@colorado.edu
+# Introduction to System Calls Assignment #1
+
+ Steven Tang 
+<br /> steven.tang@colorado.edu
 
  
- ###Functionality
+## Functionality
 
  The program creates a system call that adds two integer values and 
  stores them into a pointer variable in the userspace.
  
- ###Modified files
+## Modified files
 
 	arch/x86/kernel/simple_add.c
 	arch/x86/kernel/Makefile
@@ -17,7 +17,7 @@
 	include/linux/syscalls.h
 
  
- ###Unit Test Procedure
+## Unit Test Procedure
 
  In the home directory there is a file called test.c
  1. Compile and execute test.c:
