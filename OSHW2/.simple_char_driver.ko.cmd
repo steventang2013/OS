@@ -1,0 +1,1 @@
+cmd_/home/user/Desktop/OSHW2/simple_char_driver.ko := ld -r -m elf_x86_64 -T /home/kernel/linux-3.13.0/scripts/module-common.lds --build-id  -o /home/user/Desktop/OSHW2/simple_char_driver.ko /home/user/Desktop/OSHW2/simple_char_driver.o /home/user/Desktop/OSHW2/simple_char_driver.mod.o
